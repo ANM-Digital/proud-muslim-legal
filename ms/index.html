@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Proud Muslim Legal Centre</title>
+  <script>
+    (function () {
+      var routes = {
+        about: 'about.html',
+        privacy: 'privacy-terms.html',
+        'privacy-policy': 'privacy-terms.html',
+        terms: 'privacy-terms.html',
+        'terms-of-use': 'privacy-terms.html',
+        disclaimer: 'disclaimer.html',
+        licenses: 'licenses.html',
+        licences: 'licenses.html',
+        datasets: 'datasets.html',
+        websites: 'websites.html',
+        support: 'support.html'
+      };
+      var route = location.hash.slice(1).toLowerCase().replace(/[^a-z-]/g, '');
+      var page = routes[route] || 'index.html';
+      try { localStorage.setItem('proudMuslimLegalLanguage', 'ms'); } catch (_) {}
+      location.replace('../' + page + '?lang=ms');
+    }());
+  </script>
+</head>
+<body>
+  <p><a href="../index.html?lang=ms">Continue to Proud Muslim Legal Centre</a></p>
+</body>
+</html>
