@@ -139,7 +139,15 @@ window.translations = {
       "governingHeading": "13. Governing Law & Dispute Resolution",
       "governingText": "These terms are governed by applicable law. Any disputes should first be submitted to informal resolution via info@anmdigital.online.",
       "changesContactHeading": "14. Amendments & Contact",
-      "changesContactText": "We may modify these Terms at any time. For legal inquiries, contact info@anmdigital.online."
+      "changesContactText": "We may modify these Terms at any time. For legal inquiries, contact info@anmdigital.online.",
+      "dataDeletionHeading": "12. User Rights & Data Deletion Instructions",
+      "dataDeletionIntro": "You have full control over your personal data. You can delete your information using the following methods:",
+      "dataDeletionLocalHeading": "A. Removing Local Data",
+      "dataDeletionLocalText": "To delete all local preferences, bookmarks, custom calculation settings, and cached profile media, you can clear app storage in your device settings (Settings > Apps > Proud Muslim > Storage > Clear Data) or uninstall the app.",
+      "dataDeletionAccountHeading": "B. Server & Support Record Deletion",
+      "dataDeletionAccountText": "To delete support communications, email history, or customer service records held by ANM Digital Labs, email info@anmdigital.online with the subject 'Data Deletion Request'. We will verify and permanently delete your records within 30 days.",
+      "dataDeletionSubscriptionsHeading": "C. App Store Subscriptions",
+      "dataDeletionSubscriptionsText": "Uninstalling the app or clearing data does not automatically cancel app store subscriptions. To manage or cancel subscriptions, visit your Google Play Store or Apple App Store account settings."
     },
     "disclaimer": {
       "pageTitle": "Disclaimer",
@@ -264,7 +272,9 @@ window.translations = {
       "attributionHeading": "5. Attribution & Content Inquiries",
       "attributionText": "If you represent a content author or translator and wish to update attribution details, email info@anmdigital.online with relevant documentation.",
       "securityWarningHeading": "Important Security Notice",
-      "securityWarningText": "Do not send passwords, bank card information, payment details, or government ID numbers via email. Our team will never request sensitive financial or authentication secrets."
+      "securityWarningText": "Do not send passwords, bank card information, payment details, or government ID numbers via email. Our team will never request sensitive financial or authentication secrets.",
+      "dataDeletionHeading": "3. Data Deletion & Privacy Rights",
+      "dataDeletionText": "To request permanent deletion of any personal records or support communications held by ANM Digital Labs, email info@anmdigital.online with the subject 'Data Deletion Request'. Please specify the email address previously used to contact us. We will process your deletion request within statutory timeframes."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim by ANM Digital Labs. All rights reserved.",
@@ -413,7 +423,15 @@ window.translations = {
       "governingHeading": "13. Uygulanacak Hukuk ve Uyuşmazlıklar",
       "governingText": "Bu koşullar yürürlükteki mevzuata tabidir. Uyuşmazlıkların öncelikle info@anmdigital.online üzerinden dostane çözümü esastır.",
       "changesContactHeading": "14. Değişiklikler ve İletişim",
-      "changesContactText": "Bu Koşulları dilediğimiz zaman güncelleyebiliriz. Yasal sorularınız için: info@anmdigital.online."
+      "changesContactText": "Bu Koşulları dilediğimiz zaman güncelleyebiliriz. Yasal sorularınız için: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Kullanıcı Hakları ve Veri Silme Talimatları",
+      "dataDeletionIntro": "Kişisel verileriniz üzerinde tam kontrole sahipsiniz. Verilerinizi aşağıdaki yöntemlerle silebilirsiniz:",
+      "dataDeletionLocalHeading": "A. Yerel Verilerin Silinmesi",
+      "dataDeletionLocalText": "Tüm yerel tercihleri, yer imlerini, özel hesaplama ayarlarını ve önbelleğe alınan profil görsellerini silmek için cihazınızın Ayarlar menüsünden uygulama verilerini temizleyebilir (Ayarlar > Uygulamalar > Proud Muslim > Depolama > Verileri Temizle) veya uygulamayı kaldırabilirsiniz.",
+      "dataDeletionAccountHeading": "B. Destek ve İletişim Kayıtlarının Silinmesi",
+      "dataDeletionAccountText": "ANM Digital Labs nezdinde bulunan destek yazışmalarınızın veya e-posta kayıtlarınızın kalıcı olarak silinmesini talep etmek için 'Veri Silme Talebi' konu başlığıyla info@anmdigital.online adresine e-posta gönderebilirsiniz. Talebiniz en geç 30 gün içinde sonuçlandırılır.",
+      "dataDeletionSubscriptionsHeading": "C. Uygulama Mağazası Abonelikleri",
+      "dataDeletionSubscriptionsText": "Uygulamayı kaldırmak veya verileri temizlemek mağaza aboneliklerini otomatik olarak iptal etmez. Aboneliklerinizi Google Play Store veya Apple App Store hesap ayarlarınızdan yönetebilir ve iptal edebilirsiniz."
     },
     "disclaimer": {
       "pageTitle": "Sorumluluk Reddi",
@@ -538,7 +556,9 @@ window.translations = {
       "attributionHeading": "5. İçerik ve Atıf Güncellemeleri",
       "attributionText": "Telif hakkı veya atıf güncelleme taleplerinizi ilgili belgelerle birlikte iletebilirsiniz.",
       "securityWarningHeading": "Önemli Güvenlik Uyarısı",
-      "securityWarningText": "E-posta yoluyla şifre, kredi kartı numarası veya kimlik belgesi göndermeyiniz. Ekibimiz bu tür hassas bilgileri asla talep etmez."
+      "securityWarningText": "E-posta yoluyla şifre, kredi kartı numarası veya kimlik belgesi göndermeyiniz. Ekibimiz bu tür hassas bilgileri asla talep etmez.",
+      "dataDeletionHeading": "3. Veri Silme ve Gizlilik Talepleri",
+      "dataDeletionText": "ANM Digital Labs tarafından tutulan destek yazışmalarınızın ve kişisel kayıtlarınızın silinmesi için 'Veri Silme Talebi' konu başlığıyla info@anmdigital.online adresine e-posta gönderiniz. Talebiniz yasal süreler içerisinde ivedilikle işleme alınacaktır."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim - ANM Digital Labs. Tüm hakları saklıdır.",
@@ -687,7 +707,15 @@ window.translations = {
       "governingHeading": "١٣. القانون الحاكم وفض النزاعات",
       "governingText": "تخضع هذه الشروط للقوانين المعمول بها، ويتم السعي لحل أي نزاع ودياً أولاً عبر info@anmdigital.online.",
       "changesContactHeading": "١٤. التعديلات والتواصل",
-      "changesContactText": "يجوز لنا تعديل هذه الشروط في أي وقت. للاستفسارات القانونية: info@anmdigital.online."
+      "changesContactText": "يجوز لنا تعديل هذه الشروط في أي وقت. للاستفسارات القانونية: info@anmdigital.online.",
+      "dataDeletionHeading": "١٢. حقوق المستخدم وتعليمات حذف البيانات",
+      "dataDeletionIntro": "تتمتع بالتحكم الكامل في بياناتك الشخصية. يمكنك حذف بياناتك باتباع الإجراءات التالية:",
+      "dataDeletionLocalHeading": "أ. حذف البيانات المحفوظة محلياً",
+      "dataDeletionLocalText": "لحذف جميع الإعدادات المحلية والمفضلات وسجلات الحساب وصورة الملف الشخصي، يمكنك مسح سعة تخزين التطبيق من إعدادات جهازك (الإعدادات > التطبيقات > Proud Muslim > مسح البيانات) أو إلغاء تثبيت التطبيق.",
+      "dataDeletionAccountHeading": "ب. حذف سجلات الدعم والمراسلات",
+      "dataDeletionAccountText": "لحذف مراسلات الدعم الفني وسجلات البريد الإلكتروني المحفوظة لدى ANM Digital Labs، أرسل بريداً إلكترونياً إلى info@anmdigital.online بعنوان 'طلب حذف البيانات'. سنقوم بالتحقق وحذف سجلاتك نهائياً خلال 30 يوماً.",
+      "dataDeletionSubscriptionsHeading": "ج. اشتراكات متجر التطبيقات",
+      "dataDeletionSubscriptionsText": "إلغاء تثبيت التطبيق لا يلغي الاشتراكات النشطة في المتجر تلقائياً. يمكنك إدارة اشتراكاتك أو إلغائها مباشرة من إعدادات حسابك في Google Play أو Apple App Store."
     },
     "disclaimer": {
       "pageTitle": "إخلاء المسؤولية",
@@ -812,7 +840,9 @@ window.translations = {
       "attributionHeading": "٥. استفسارات المحتوى وحقوق الملكية",
       "attributionText": "لتحديث بيانات مؤلف أو مترجم أو تعديل نسبة محتوى، راسلنا مع إرفاق الوثائق الداعمة.",
       "securityWarningHeading": "تنبيه أمني هام",
-      "securityWarningText": "لا ترسل كلمات المرور أو أرقام البطاقات البنكية أو وثائق الهوية الشخصية عبر البريد الإلكتروني. لن يطلب فريقنا هذه المعلومات الحساسة أبداً."
+      "securityWarningText": "لا ترسل كلمات المرور أو أرقام البطاقات البنكية أو وثائق الهوية الشخصية عبر البريد الإلكتروني. لن يطلب فريقنا هذه المعلومات الحساسة أبداً.",
+      "dataDeletionHeading": "٣. طلبات حذف البيانات والخصوصية",
+      "dataDeletionText": "لطلب حذف أي بيانات شخصية أو مراسلات دعم محفوظة لدى ANM Digital Labs، راسلنا عبر info@anmdigital.online مع كتابة 'طلب حذف البيانات' في عنوان الرسالة. تتم معالجة الطلبات خلال المدة النظامية."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim بواسطة ANM Digital Labs. جميع الحقوق محفوظة.",
@@ -961,7 +991,15 @@ window.translations = {
       "governingHeading": "13. Anwendbares Recht & Streitbeilegung",
       "governingText": "Es gilt das anwendbare Recht. Streitigkeiten sollten zunächst einvernehmlich über info@anmdigital.online geklärt werden.",
       "changesContactHeading": "14. Änderungen & Kontakt",
-      "changesContactText": "Wir können diese Bedingungen jederzeit anpassen. Kontakt: info@anmdigital.online."
+      "changesContactText": "Wir können diese Bedingungen jederzeit anpassen. Kontakt: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Nutzerrechte & Anweisungen zur Datenlöschung",
+      "dataDeletionIntro": "Sie haben die volle Kontrolle über Ihre Daten. Sie können Ihre Daten wie folgt löschen:",
+      "dataDeletionLocalHeading": "A. Lokale Daten löschen",
+      "dataDeletionLocalText": "Um alle lokalen Einstellungen, Lesezeichen und Profildaten zu löschen, leeren Sie den App-Speicher in den Geräteeinstellungen (Einstellungen > Apps > Proud Muslim > Speicher > Daten löschen) oder deinstallieren Sie die App.",
+      "dataDeletionAccountHeading": "B. Löschung von Support- und Kommunikationsdaten",
+      "dataDeletionAccountText": "Um bei ANM Digital Labs gespeicherte E-Mail- und Supportdaten löschen zu lassen, senden Sie eine E-Mail an info@anmdigital.online mit dem Betreff „Antrag auf Datenlöschung“. Wir löschen Ihre Daten innerhalb von 30 Tagen.",
+      "dataDeletionSubscriptionsHeading": "C. App-Store-Abonnements",
+      "dataDeletionSubscriptionsText": "Die Deinstallation der App kündigt bestehende Abonnements nicht automatisch. Verwalten oder kündigen Sie Abonnements über Ihr Google Play- oder Apple App Store-Konto."
     },
     "disclaimer": {
       "pageTitle": "Haftungsausschluss",
@@ -1086,7 +1124,9 @@ window.translations = {
       "attributionHeading": "5. Urheber- & Inhaltsanfragen",
       "attributionText": "Für Korrekturen an Namensnennungen senden Sie bitte die entsprechenden Nachweise.",
       "securityWarningHeading": "Wichtiger Sicherheitshinweis",
-      "securityWarningText": "Senden Sie niemals Passwörter, Bankdaten oder Ausweiskopien per E-Mail. Unser Team fordert solche Daten niemals an."
+      "securityWarningText": "Senden Sie niemals Passwörter, Bankdaten oder Ausweiskopien per E-Mail. Unser Team fordert solche Daten niemals an.",
+      "dataDeletionHeading": "3. Anträge auf Datenlöschung",
+      "dataDeletionText": "Um die dauerhafte Löschung Ihrer Daten oder Support-Nachrichten zu beantragen, schreiben Sie mit dem Betreff „Antrag auf Datenlöschung“ an info@anmdigital.online. Die Bearbeitung erfolgt innerhalb der gesetzlichen Fristen."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim von ANM Digital Labs. Alle Rechte vorbehalten.",
@@ -1235,7 +1275,15 @@ window.translations = {
       "governingHeading": "13. Ley Aplicable y Resolución de Conflictos",
       "governingText": "Se rige por la ley aplicable. Las disputas se resolverán preferentemente de forma amistosa en info@anmdigital.online.",
       "changesContactHeading": "14. Modificaciones y Contacto",
-      "changesContactText": "Podemos modificar estos términos. Consultas legales: info@anmdigital.online."
+      "changesContactText": "Podemos modificar estos términos. Consultas legales: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Derechos del Usuario e Instrucciones de Eliminación de Datos",
+      "dataDeletionIntro": "Usted tiene el control total de sus datos. Puede eliminarlos siguiendo estos pasos:",
+      "dataDeletionLocalHeading": "A. Eliminación de Datos Locales",
+      "dataDeletionLocalText": "Para borrar preferencias, marcadores y fotos de perfil almacenadas, borre los datos de la aplicación en los Ajustes del dispositivo (Ajustes > Aplicaciones > Proud Muslim > Almacenamiento > Borrar datos) o desinstale la aplicación.",
+      "dataDeletionAccountHeading": "B. Eliminación de Registros de Soporte",
+      "dataDeletionAccountText": "Para eliminar correos y registros de soporte en poder de ANM Digital Labs, envíe un correo a info@anmdigital.online con el asunto 'Solicitud de Eliminación de Datos'. Procesaremos la eliminación en un plazo máximo de 30 días.",
+      "dataDeletionSubscriptionsHeading": "C. Suscripciones de Tiendas de Aplicaciones",
+      "dataDeletionSubscriptionsText": "Desinstalar la aplicación no cancela suscripciones activas. Gestione o cancele suscripciones desde los ajustes de su cuenta de Google Play o Apple App Store."
     },
     "disclaimer": {
       "pageTitle": "Descargo de Responsabilidad",
@@ -1360,7 +1408,9 @@ window.translations = {
       "attributionHeading": "5. Consultas de Atribución y Contenido",
       "attributionText": "Para actualizar créditos de traducción o contenido, envíe los documentos pertinentes.",
       "securityWarningHeading": "Aviso Importante de Seguridad",
-      "securityWarningText": "No envíe contraseñas, números de tarjeta ni documentos de identidad por correo. Nunca le solicitaremos información confidencial."
+      "securityWarningText": "No envíe contraseñas, números de tarjeta ni documentos de identidad por correo. Nunca le solicitaremos información confidencial.",
+      "dataDeletionHeading": "3. Solicitudes de Eliminación de Datos",
+      "dataDeletionText": "Para solicitar la supresión de sus datos o mensajes de soporte en ANM Digital Labs, escriba a info@anmdigital.online con el asunto 'Solicitud de Eliminación de Datos'. Se atenderá en los plazos legales establecidos."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim por ANM Digital Labs. Todos los derechos reservados.",
@@ -1509,7 +1559,15 @@ window.translations = {
       "governingHeading": "13. Droit Applicable & Litiges",
       "governingText": "Ces conditions sont soumises à la loi en vigueur. Les litiges doivent être soumis à info@anmdigital.online.",
       "changesContactHeading": "14. Modifications et Contact",
-      "changesContactText": "Nous pouvons modifier ces conditions à tout moment. Contact : info@anmdigital.online."
+      "changesContactText": "Nous pouvons modifier ces conditions à tout moment. Contact : info@anmdigital.online.",
+      "dataDeletionHeading": "12. Droits de l'Utilisateur et Suppression des Données",
+      "dataDeletionIntro": "Vous disposez d'un contrôle total sur vos données. Vous pouvez les supprimer selon les modalités suivantes :",
+      "dataDeletionLocalHeading": "A. Suppression des Données Locales",
+      "dataDeletionLocalText": "Pour supprimer vos préférences, signets et images de profil locales, effacez les données de l'application dans les Paramètres de votre appareil (Paramètres > Applications > Proud Muslim > Stockage > Effacer les données) ou désinstallez l'application.",
+      "dataDeletionAccountHeading": "B. Suppression des Échanges d'Assistance",
+      "dataDeletionAccountText": "Pour demander la suppression des e-mails et dossiers d'assistance conservés par ANM Digital Labs, écrivez à info@anmdigital.online avec l'objet « Demande de suppression de données ». Vos données seront supprimées sous 30 jours.",
+      "dataDeletionSubscriptionsHeading": "C. Abonnements aux Boutiques d'Applications",
+      "dataDeletionSubscriptionsText": "La désinstallation de l'application ne résilie pas automatiquement vos abonnements. Gérez ou annulez vos abonnements directement depuis votre compte Google Play ou Apple App Store."
     },
     "disclaimer": {
       "pageTitle": "Avis de non-responsabilité",
@@ -1634,7 +1692,9 @@ window.translations = {
       "attributionHeading": "5. Droits d'Auteur & Contenus",
       "attributionText": "Pour mettre à jour les crédits d'un traducteur ou d'un auteur, veuillez fournir les justificatifs requis.",
       "securityWarningHeading": "Consigne de Sécurité Importante",
-      "securityWarningText": "N'envoyez jamais de mot de passe, de numéro de carte de paiement ou de pièce d'identité par e-mail. Notre équipe ne vous demandera jamais ces données."
+      "securityWarningText": "N'envoyez jamais de mot de passe, de numéro de carte de paiement ou de pièce d'identité par e-mail. Notre équipe ne vous demandera jamais ces données.",
+      "dataDeletionHeading": "3. Demandes de Suppression de Données",
+      "dataDeletionText": "Pour demander l'effacement permanent de vos données ou messages de support auprès d'ANM Digital Labs, écrivez à info@anmdigital.online avec l'objet « Demande de suppression de données »."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim par ANM Digital Labs. Tous droits réservés.",
@@ -1783,7 +1843,15 @@ window.translations = {
       "governingHeading": "13. Legislação Aplicável e Resolução de Disputas",
       "governingText": "Estes termos são regidos pela legislação aplicável. Disputas devem ser tratadas amigavelmente em info@anmdigital.online.",
       "changesContactHeading": "14. Alterações e Contato",
-      "changesContactText": "Podemos atualizar estes termos periodicamente. Contato: info@anmdigital.online."
+      "changesContactText": "Podemos atualizar estes termos periodicamente. Contato: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Direitos do Usuário e Exclusão de Dados",
+      "dataDeletionIntro": "Você possui controle total sobre seus dados. É possível excluí-los das seguintes formas:",
+      "dataDeletionLocalHeading": "A. Exclusão de Dados Locais",
+      "dataDeletionLocalText": "Para remover preferências, favoritos e fotos de perfil salvas, limpe o armazenamento do app nas Configurações do aparelho (Configurações > Apps > Proud Muslim > Armazenamento > Limpar dados) ou desinstale o aplicativo.",
+      "dataDeletionAccountHeading": "B. Exclusão de Registros de Atendimento",
+      "dataDeletionAccountText": "Para solicitar a exclusão de conversas de suporte mantidas pela ANM Digital Labs, envie um e-mail para info@anmdigital.online com o assunto 'Solicitação de Exclusão de Dados'. Atenderemos o pedido em até 30 dias.",
+      "dataDeletionSubscriptionsHeading": "C. Assinaturas de Lojas de Aplicativos",
+      "dataDeletionSubscriptionsText": "Desinstalar o aplicativo não cancela assinaturas ativas. Gerencie ou cancele assinaturas nas configurações da sua conta Google Play ou Apple App Store."
     },
     "disclaimer": {
       "pageTitle": "Isenção de Responsabilidade",
@@ -1908,7 +1976,9 @@ window.translations = {
       "attributionHeading": "5. Direitos Autorais e Conteúdo",
       "attributionText": "Para atualização de créditos ou informações de tradutores, anexe a documentação pertinente.",
       "securityWarningHeading": "Aviso de Segurança Fundamental",
-      "securityWarningText": "Não envie senhas, dados de cartão de crédito ou documentos de identidade por e-mail. Nossa equipe nunca solicitará essas informações sigilosas."
+      "securityWarningText": "Não envie senhas, dados de cartão de crédito ou documentos de identidade por e-mail. Nossa equipe nunca solicitará essas informações sigilosas.",
+      "dataDeletionHeading": "3. Solicitações de Exclusão de Dados",
+      "dataDeletionText": "Para solicitar a exclusão definitiva de seus dados ou mensagens de suporte na ANM Digital Labs, envie um e-mail com o assunto 'Solicitação de Exclusão de Dados' para info@anmdigital.online."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim por ANM Digital Labs. Todos os direitos reservados.",
@@ -2057,7 +2127,15 @@ window.translations = {
       "governingHeading": "13. Применимое право и споры",
       "governingText": "Условия регулируются применимым законодательством. Споры подлежат досудебному урегулированию через info@anmdigital.online.",
       "changesContactHeading": "14. Изменения и контакты",
-      "changesContactText": "Мы можем вносить изменения в настоящие Условия. Контакты: info@anmdigital.online."
+      "changesContactText": "Мы можем вносить изменения в настоящие Условия. Контакты: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Права пользователей и удаление данных",
+      "dataDeletionIntro": "Вы имеете полный контроль над своими персональными данными. Вы можете удалить информацию следующими способами:",
+      "dataDeletionLocalHeading": "А. Удаление локальных данных",
+      "dataDeletionLocalText": "Чтобы удалить локальные настройки, закладки и сохраненный аватар, очистите хранилище приложения в настройках устройства (Настройки > Приложения > Proud Muslim > Память > Очистить данные) или удалите приложение.",
+      "dataDeletionAccountHeading": "Б. Удаление переписки со службой поддержки",
+      "dataDeletionAccountText": "Чтобы удалить сообщения и обращения в службу поддержки, хранящиеся в ANM Digital Labs, отправьте письмо на info@anmdigital.online с темой «Запрос на удаление данных». Мы удалим данные в течение 30 дней.",
+      "dataDeletionSubscriptionsHeading": "В. Управление подписками",
+      "dataDeletionSubscriptionsText": "Удаление приложения не отменяет действующие подписки. Управляйте подписками в настройках аккаунта Google Play или Apple App Store."
     },
     "disclaimer": {
       "pageTitle": "Отказ от ответственности",
@@ -2182,7 +2260,9 @@ window.translations = {
       "attributionHeading": "5. Вопросы авторского права и контента",
       "attributionText": "Для обновления сведений об авторстве направьте запрос с подтверждающими документами.",
       "securityWarningHeading": "Важное правило безопасности",
-      "securityWarningText": "Не отправляйте пароли, номера банковских карт или копии документов по электронной почте. Наша команда никогда не запрашивает такие данные."
+      "securityWarningText": "Не отправляйте пароли, номера банковских карт или копии документов по электронной почте. Наша команда никогда не запрашивает такие данные.",
+      "dataDeletionHeading": "3. Запросы на удаление данных",
+      "dataDeletionText": "Для удаления любых персональных данных или переписки со службой поддержки ANM Digital Labs отправьте письмо с темой «Запрос на удаление данных» на адрес info@anmdigital.online."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim от ANM Digital Labs. Все права защищены.",
@@ -2331,7 +2411,15 @@ window.translations = {
       "governingHeading": "13. Hukum yang Berlaku dan Sengketa",
       "governingText": "Ketentuan ini diatur oleh hukum yang berlaku. Sengketa diselesaikan secara musyawarah via info@anmdigital.online.",
       "changesContactHeading": "14. Perubahan dan Kontak",
-      "changesContactText": "Kami dapat memperbarui Ketentuan ini sewaktu-waktu. Kontak hukum: info@anmdigital.online."
+      "changesContactText": "Kami dapat memperbarui Ketentuan ini sewaktu-waktu. Kontak hukum: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Hak Pengguna & Petunjuk Penghapusan Data",
+      "dataDeletionIntro": "Anda memegang kendali penuh atas data pribadi Anda. Anda dapat menghapus data melalui cara berikut:",
+      "dataDeletionLocalHeading": "A. Menghapus Data Lokal",
+      "dataDeletionLocalText": "Untuk menghapus semua preferensi lokal, markah buku, dan foto profil, bersihkan penyimpanan aplikasi melalui Pengaturan perangkat (Pengaturan > Aplikasi > Proud Muslim > Penyimpanan > Hapus Data) atau copot pemasangan aplikasi.",
+      "dataDeletionAccountHeading": "B. Penghapusan Catatan Layanan Bantuan",
+      "dataDeletionAccountText": "Untuk menghapus riwayat email atau komunikasi dukungan yang disimpan oleh ANM Digital Labs, kirimkan email ke info@anmdigital.online dengan subjek 'Permintaan Penghapusan Data'. Kami akan menghapusnya secara permanen dalam 30 hari.",
+      "dataDeletionSubscriptionsHeading": "C. Berlangganan Toko Aplikasi",
+      "dataDeletionSubscriptionsText": "Mencopot aplikasi tidak membatalkan langganan berbayar secara otomatis. Kelola atau batalkan langganan Anda melalui pengaturan akun Google Play Store atau Apple App Store."
     },
     "disclaimer": {
       "pageTitle": "Penafian",
@@ -2456,7 +2544,9 @@ window.translations = {
       "attributionHeading": "5. Pembaruan Atribusi Konten",
       "attributionText": "Untuk pembaruan kredit penerjemah atau penulis, lampirkan dokumen pendukung terkait.",
       "securityWarningHeading": "Pemberitahuan Keamanan Penting",
-      "securityWarningText": "Jangan mengirimkan kata sandi, nomor kartu bank, atau kartu identitas melalui email. Tim kami tidak akan pernah meminta data sensitif tersebut."
+      "securityWarningText": "Jangan mengirimkan kata sandi, nomor kartu bank, atau kartu identitas melalui email. Tim kami tidak akan pernah meminta data sensitif tersebut.",
+      "dataDeletionHeading": "3. Permintaan Penghapusan Data",
+      "dataDeletionText": "Untuk mengajukan penghapusan data pribadi atau riwayat komunikasi dukungan yang dikelola ANM Digital Labs, kirimkan email bertema 'Permintaan Penghapusan Data' ke info@anmdigital.online."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim oleh ANM Digital Labs. Hak cipta dilindungi undang-undang.",
@@ -2605,7 +2695,15 @@ window.translations = {
       "governingHeading": "13. Undang-Undang yang Mentadbir dan Pertikaian",
       "governingText": "Terma ini ditadbir oleh undang-undang berkaitan. Sebarang pertikaian hendaklah diselesaikan secara baik melalui info@anmdigital.online.",
       "changesContactHeading": "14. Pindaan dan Hubungan",
-      "changesContactText": "Kami boleh mengemas kini Terma ini pada bila-bila masa. Pertanyaan undang-undang: info@anmdigital.online."
+      "changesContactText": "Kami boleh mengemas kini Terma ini pada bila-bila masa. Pertanyaan undang-undang: info@anmdigital.online.",
+      "dataDeletionHeading": "12. Hak Pengguna & Arahan Pemadaman Data",
+      "dataDeletionIntro": "Anda mempunyai kawalan penuh terhadap data peribadi anda. Anda boleh memadamkan data melalui kaedah berikut:",
+      "dataDeletionLocalHeading": "A. Memadam Data Setempat",
+      "dataDeletionLocalText": "Untuk memadamkan semua pilihan setempat, penanda halaman, dan foto profil, kosongkan storan aplikasi dalam Tetapan telefon (Tetapan > Aplikasi > Proud Muslim > Storan > Kosongkan Data) atau nyahpasang aplikasi.",
+      "dataDeletionAccountHeading": "B. Pemadaman Rekod Sokongan Pelanggan",
+      "dataDeletionAccountText": "Untuk memadamkan rekod emel atau komunikasi sokongan yang disimpan oleh ANM Digital Labs, hantarkan emel ke info@anmdigital.online dengan subjek 'Permintaan Pemadaman Data'. Rekod anda akan dipadamkan dalam tempoh 30 hari.",
+      "dataDeletionSubscriptionsHeading": "C. Langganan Gedung Aplikasi",
+      "dataDeletionSubscriptionsText": "Menyahpasang aplikasi tidak membatalkan langganan aktif secara automatik. Urus atau batalkan langganan melalui tetapan akaun Google Play Store atau Apple App Store anda."
     },
     "disclaimer": {
       "pageTitle": "Penafian",
@@ -2730,7 +2828,9 @@ window.translations = {
       "attributionHeading": "5. Pertanyaan Hak Cipta & Kandungan",
       "attributionText": "Untuk mengemas kini maklumat atribusi penterjemah, sila sertakan dokumen pembuktian yang sah.",
       "securityWarningHeading": "Peringatan Keselamatan Penting",
-      "securityWarningText": "Jangan hantar kata laluan, nombor kad bank, atau salinan kad pengenalan melalui emel. Pasukan kami tidak akan sesekali meminta maklumat sulit tersebut."
+      "securityWarningText": "Jangan hantar kata laluan, nombor kad bank, atau salinan kad pengenalan melalui emel. Pasukan kami tidak akan sesekali meminta maklumat sulit tersebut.",
+      "dataDeletionHeading": "3. Permintaan Pemadaman Data",
+      "dataDeletionText": "Untuk memohon pemadaman data peribadi atau rekod komunikasi sokongan yang dipegang oleh ANM Digital Labs, emelkan permohonan bersubjek 'Permintaan Pemadaman Data' ke info@anmdigital.online."
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim oleh ANM Digital Labs. Hak cipta terpelihara.",
@@ -2879,7 +2979,15 @@ window.translations = {
       "governingHeading": "۱۳. نافذ العمل قانون",
       "governingText": "یہ شرائط مروجہ قوانین کے تحت ہیں۔ کسی بھی تنازعے کے حل کے لیے info@anmdigital.online پر رابطہ کیا جائے۔",
       "changesContactHeading": "۱۴. ترامیم اور رابطہ",
-      "changesContactText": "ہم ان شرائط میں وقتاً فوقتاً تبدیلی کر سکتے ہیں۔ قانونی رابطہ: info@anmdigital.online۔"
+      "changesContactText": "ہم ان شرائط میں وقتاً فوقتاً تبدیلی کر سکتے ہیں۔ قانونی رابطہ: info@anmdigital.online۔",
+      "dataDeletionHeading": "۱۲. صارف کے حقوق اور ڈیٹا ڈیلیٹ کرنے کی ہدایات",
+      "dataDeletionIntro": "آپ کو اپنے ذاتی ڈیٹا پر مکمل کنٹرول حاصل ہے۔ آپ درج ذیل طریقوں سے اپنا ڈیٹا ڈیلیٹ کر سکتے ہیں:",
+      "dataDeletionLocalHeading": "الف۔ مقامی ڈیٹا کو ڈیلیٹ کرنا",
+      "dataDeletionLocalText": "تمام مقامی ترجیحات، بک مارکس اور محفوظ شدہ پروفائل تصویر کو ختم کرنے کے لیے فون کی سیٹنگز میں جا کر ایپ ڈیٹا صاف کریں (Settings > Apps > Proud Muslim > Storage > Clear Data) یا ایپ کو ان انسٹال کریں۔",
+      "dataDeletionAccountHeading": "ب۔ سپورٹ اور رابطے کے ریکارڈ کا خاتمہ",
+      "dataDeletionAccountText": "ANM Digital Labs کے پاس محفوظ سپورٹ پیغامات یا ای میلز کو ڈیلیٹ کروانے کے لیے 'ڈیٹا ڈیلیٹ کرنے کی درخواست' لکھ کر info@anmdigital.online پر ای میل کریں۔ آپ کا ریکارڈ ۳۰ دن میں مستقل طور پر ڈیلیٹ کر دیا جائے گا۔",
+      "dataDeletionSubscriptionsHeading": "ج۔ ایپ اسٹور سبسکرپشنز",
+      "dataDeletionSubscriptionsText": "ایپ ان انسٹال کرنے سے سبسکرپشن ازخود منسوخ نہیں ہوتی۔ سبسکرپشنز کو منظم یا منسوخ کرنے کے لیے اپنے Google Play یا Apple App Store اکاؤنٹ کی ترتیبات دیکھیں۔"
     },
     "disclaimer": {
       "pageTitle": "دستبرداری",
@@ -3004,7 +3112,9 @@ window.translations = {
       "attributionHeading": "۵. کاپی رائٹ اور مواد کے سوالات",
       "attributionText": "مترجمین کی تفصیلات اپ ڈیٹ کرنے کے لیے تصدیقی دستاویزات کے ہمراہ رابطہ فرمائیں۔",
       "securityWarningHeading": "اہم سیکیورٹی انتباہ",
-      "securityWarningText": "ای میل پر کبھی بھی پاس ورڈ، بینک کارڈ نمبر یا شناختی دستاویزات نہ بھیجیں۔ ہمارا عملہ یہ معلومات کبھی نہیں مانگتا۔"
+      "securityWarningText": "ای میل پر کبھی بھی پاس ورڈ، بینک کارڈ نمبر یا شناختی دستاویزات نہ بھیجیں۔ ہمارا عملہ یہ معلومات کبھی نہیں مانگتا۔",
+      "dataDeletionHeading": "۳. ڈیٹا ڈیلیٹ کرنے اور پرائیویسی کی درخواستیں",
+      "dataDeletionText": "ANM Digital Labs کے پاس موجود اپنے ذاتی ڈیٹا یا سپورٹ پیغامات کو مستقل ڈیلیٹ کروانے کے لیے سبجیکٹ میں 'ڈیٹا ڈیلیٹ کی درخواست' لکھ کر info@anmdigital.online پر ای میل فرمائیں۔"
     },
     "footer": {
       "copyright": "© 2026 Proud Muslim از ANM Digital Labs۔ جملہ حقوق محفوظ ہیں۔",
