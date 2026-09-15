@@ -120,9 +120,9 @@
         <!-- Card 7: Support -->
         <div class="card">
           <div class="card-icon" aria-hidden="true">🕰️</div>
-          <h2 class="card-title">Prayer Time Explanations</h2>
-          <p class="card-text">Learn what each prayer-time and timetable marker means, with madhhab notes and source citations in 11 languages.</p>
-          <a class="card-link" href="prayer-times.html"><span>View Explanations</span> <span class="arrow" aria-hidden="true">→</span></a>
+          <h2 class="card-title" id="prayer-card-title">Prayer Time Explanations</h2>
+          <p class="card-text" id="prayer-card-description">Learn what each prayer-time and timetable marker means, with madhhab notes and source citations in 11 languages.</p>
+          <a class="card-link" href="prayer-times.html"><span id="prayer-card-link">View Explanations</span> <span class="arrow" aria-hidden="true">→</span></a>
         </div>
 
         <!-- Card 8: Support -->
@@ -153,5 +153,12 @@
 
   <script src="assets/js/i18n.js"></script>
   <script src="assets/js/app.js"></script>
+  <script>
+    (function(){
+      const p={en:['Prayer Time Explanations','Learn what each prayer-time and timetable marker means, with madhhab notes and source citations in 11 languages.','View Explanations'],tr:['Namaz Vakitlerinin Açıklamaları','Her namaz vakti ve takvim işaretinin anlamını mezhep notları ve kaynaklarla 11 dilde öğrenin.','Açıklamaları Gör'],ar:['شرح مواقيت الصلاة','تعرّف على معاني المواقيت والعلامات مع ملاحظات المذاهب والمصادر بإحدى عشرة لغة.','عرض الشرح'],de:['Erklärungen der Gebetszeiten','Bedeutungen der Gebetszeiten mit Rechtsschulhinweisen und Quellen in 11 Sprachen.','Erklärungen ansehen'],fr:['Explications des horaires de prière','Découvrez les horaires avec les avis des écoles et les sources en 11 langues.','Voir les explications'],es:['Explicaciones de los horarios de oración','Consulte significados, notas jurídicas y fuentes en 11 idiomas.','Ver explicaciones'],pt:['Explicações dos horários de oração','Consulte significados, notas jurídicas e fontes em 11 idiomas.','Ver explicações'],ru:['Пояснения ко времени молитв','Значения временных отметок, мнения школ и источники на 11 языках.','Открыть пояснения'],id:['Penjelasan Waktu Salat','Pelajari penanda waktu, catatan mazhab, dan sumber dalam 11 bahasa.','Lihat Penjelasan'],ms:['Penjelasan Waktu Solat','Ketahui penanda waktu, catatan mazhab dan sumber dalam 11 bahasa.','Lihat Penjelasan'],ur:['اوقاتِ نماز کی وضاحت','اوقات، فقہی آرا اور ماخذ کی وضاحت 11 زبانوں میں پڑھیں۔','وضاحت دیکھیں']};
+      function setCard(){const l=document.getElementById('language-select').value;const v=p[l]||p.en;document.getElementById('prayer-card-title').textContent=v[0];document.getElementById('prayer-card-description').textContent=v[1];document.getElementById('prayer-card-link').textContent=v[2]}
+      setCard();document.getElementById('language-select').addEventListener('change',setCard);
+    }());
+  </script>
 </body>
 </html>
