@@ -10,18 +10,18 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="common.skipToContent">Skip to content</a>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Proud Muslim Home">
+      <a class="brand" href="index.html" aria-label="Proud Muslim Home" data-i18n-aria="common.homeAria">
         <img src="assets/images/logo.png" alt="Proud Muslim" class="brand-logo">
         <span class="brand-name" data-i18n="common.brandName">Proud Muslim</span>
         <span class="brand-tag" data-i18n="common.brandTag">Legal Centre</span>
       </a>
 
       <div class="nav-container">
-        <nav class="main-nav" aria-label="Primary">
+        <nav class="main-nav" aria-label="Primary" data-i18n-aria="common.primaryNavigation">
           <a href="index.html" data-i18n="common.home">Home</a>
           <a href="about.html" data-i18n="common.about">About</a>
           <a href="privacy-terms.html" data-i18n="common.privacyTerms">Privacy & Terms</a>
@@ -46,6 +46,17 @@
             <option value="id">Bahasa Indonesia</option>
             <option value="ms">Bahasa Melayu</option>
             <option value="ur">اردو</option>
+            <option value="bn">বাংলা</option>
+            <option value="fa">فارسی</option>
+            <option value="hi">हिन्दी</option>
+            <option value="it">Italiano</option>
+            <option value="nl">Nederlands</option>
+            <option value="cy">Cymraeg</option>
+            <option value="sw">Kiswahili</option>
+            <option value="ha">Hausa</option>
+            <option value="so">Soomaali</option>
+            <option value="am">አማርኛ</option>
+            <option value="yo">Yorùbá</option>
           </select>
         </div>
       </div>
@@ -53,6 +64,13 @@
   </header>
 
   <main id="main" class="site-main">
+      <div class="container">
+        <details class="notice" id="legal-translation-notice">
+          <summary data-i18n="legalTranslationNotice.title">Legal document translation notice</summary>
+          <p data-i18n="legalTranslationNotice.text">These legal documents are provided in translation for accessibility. Translations may contain errors, omissions or differences in wording. Proud Muslim does not independently certify their legal or linguistic accuracy. If wording differs or is unclear, consult the English source and contact info@anmdigital.online for clarification. This notice does not limit rights or responsibilities that cannot legally be excluded, including responsibility for errors introduced by our own processing.</p>
+        </details>
+      </div>
+
     <section class="hero compact">
       <div class="container">
         <p class="hero-eyebrow" data-i18n="disclaimer.eyebrow">Important Disclaimers</p>
