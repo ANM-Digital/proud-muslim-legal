@@ -271,6 +271,13 @@ window.translations = {
       "privacyLink": "Privacy & Terms",
       "disclaimerLink": "Disclaimer",
       "contactLink": "Contact & Support"
+    },
+    "translationNotice": {
+      "title": "Translation notice",
+      "independence": "Proud Muslim is an independent app, not an Islamic institute or a religious authority. Quran translations express human interpretations of the meanings of the original Arabic text and may contain errors, omissions or differences of interpretation.",
+      "responsibility": "Translations are credited to their respective translators and publishers. Proud Muslim does not claim to independently certify their religious or linguistic accuracy. To the extent permitted by applicable law, we do not accept responsibility for errors originating in third-party translations. This does not exclude responsibility that cannot legally be excluded, including for errors introduced by our own processing.",
+      "guidance": "For questions of religious interpretation, consult a qualified scholar. Please report suspected errors using the translation’s source information or the app’s existing support channel.",
+      "report": "Report a suspected translation error"
     }
   },
   "tr": {
@@ -545,6 +552,13 @@ window.translations = {
       "privacyLink": "Gizlilik ve Koşullar",
       "disclaimerLink": "Sorumluluk Reddi",
       "contactLink": "İletişim ve Destek"
+    },
+    "translationNotice": {
+      "title": "Çeviri bildirimi",
+      "independence": "Proud Muslim, bir İslami kurum veya dinî otorite değil, bağımsız bir uygulamadır. Kur’an çevirileri, özgün Arapça metnin anlamlarına ilişkin insan yorumlarını yansıtır ve hatalar, eksiklikler veya yorum farklılıkları içerebilir.",
+      "responsibility": "Çeviriler, ilgili çevirmen ve yayıncıların adlarıyla sunulur. Proud Muslim, bunların dinî veya dilsel doğruluğunu bağımsız olarak onayladığını iddia etmez. Geçerli hukukun izin verdiği ölçüde, üçüncü taraf çevirilerinden kaynaklanan hatalar için sorumluluk kabul etmeyiz. Bu, kendi işlemlerimizle ortaya çıkan hatalar dâhil, hukuken hariç tutulamayacak sorumlulukları ortadan kaldırmaz.",
+      "guidance": "Dinî yorumla ilgili sorularınız için yetkin bir âlime danışın. Şüpheli hataları lütfen çevirinin kaynak bilgilerini veya uygulamanın mevcut destek kanalını kullanarak bildirin.",
+      "report": "Şüpheli bir çeviri hatasını bildirin"
     }
   },
   "ar": {
@@ -819,6 +833,13 @@ window.translations = {
       "privacyLink": "الخصوصية والشروط",
       "disclaimerLink": "إخلاء المسؤولية",
       "contactLink": "الاتصال والدعم"
+    },
+    "translationNotice": {
+      "title": "تنبيه بشأن الترجمات",
+      "independence": "Proud Muslim تطبيق مستقل، وليس مؤسسة إسلامية أو مرجعية دينية. تعبّر ترجمات القرآن عن تفسيرات بشرية لمعاني النص العربي الأصلي، وقد تتضمن أخطاء أو إغفالات أو اختلافات في التفسير.",
+      "responsibility": "تُنسب الترجمات إلى مترجميها وناشريها. لا يدّعي Proud Muslim أنه يصادق بصورة مستقلة على دقتها الدينية أو اللغوية. بالقدر الذي يسمح به القانون المعمول به، لا نتحمل المسؤولية عن الأخطاء الناشئة في ترجمات الجهات الخارجية. ولا يستثني ذلك أي مسؤولية لا يجوز استثناؤها قانونًا، بما في ذلك الأخطاء التي تنتج عن معالجتنا نحن.",
+      "guidance": "للأسئلة المتعلقة بالتفسير الديني، استشر عالمًا مؤهلًا. يُرجى الإبلاغ عن الأخطاء المحتملة باستخدام معلومات مصدر الترجمة أو قناة الدعم الحالية للتطبيق.",
+      "report": "الإبلاغ عن خطأ محتمل في الترجمة"
     }
   },
   "de": {
@@ -1093,6 +1114,13 @@ window.translations = {
       "privacyLink": "Datenschutz & AGB",
       "disclaimerLink": "Haftungsausschluss",
       "contactLink": "Kontakt & Support"
+    },
+    "translationNotice": {
+      "title": "Hinweis zu Übersetzungen",
+      "independence": "Proud Muslim ist eine unabhängige App, kein islamisches Institut und keine religiöse Autorität. Koranübersetzungen geben menschliche Interpretationen der Bedeutungen des arabischen Originaltextes wieder und können Fehler, Auslassungen oder unterschiedliche Auslegungen enthalten.",
+      "responsibility": "Die jeweiligen Übersetzer und Verlage werden bei den Übersetzungen genannt. Proud Muslim beansprucht nicht, deren religiöse oder sprachliche Richtigkeit unabhängig zu bestätigen. Soweit das geltende Recht es zulässt, übernehmen wir keine Verantwortung für Fehler, die aus Übersetzungen Dritter stammen. Dies schließt keine Haftung aus, die rechtlich nicht ausgeschlossen werden darf, einschließlich der Haftung für Fehler, die durch unsere eigene Verarbeitung entstehen.",
+      "guidance": "Bei Fragen zur religiösen Auslegung wenden Sie sich an einen qualifizierten Gelehrten. Bitte melden Sie vermutete Fehler über die Quellenangaben der Übersetzung oder den bestehenden Supportkanal der App.",
+      "report": "Einen vermuteten Übersetzungsfehler melden"
     }
   },
   "es": {
@@ -1367,6 +1395,13 @@ window.translations = {
       "privacyLink": "Privacidad y Términos",
       "disclaimerLink": "Descargo de Responsabilidad",
       "contactLink": "Contacto y Soporte"
+    },
+    "translationNotice": {
+      "title": "Aviso sobre las traducciones",
+      "independence": "Proud Muslim es una aplicación independiente, no un instituto islámico ni una autoridad religiosa. Las traducciones del Corán expresan interpretaciones humanas de los significados del texto árabe original y pueden contener errores, omisiones o diferencias de interpretación.",
+      "responsibility": "Las traducciones se atribuyen a sus respectivos traductores y editores. Proud Muslim no afirma certificar de forma independiente su exactitud religiosa o lingüística. En la medida permitida por la legislación aplicable, no aceptamos responsabilidad por los errores originados en traducciones de terceros. Esto no excluye las responsabilidades que no puedan excluirse legalmente, incluidas las relativas a errores introducidos por nuestro propio procesamiento.",
+      "guidance": "Para cuestiones de interpretación religiosa, consulte a un erudito cualificado. Informe de los posibles errores utilizando la información de la fuente de la traducción o el canal de asistencia existente de la aplicación.",
+      "report": "Informar de un posible error de traducción"
     }
   },
   "fr": {
@@ -1641,6 +1676,13 @@ window.translations = {
       "privacyLink": "Confidentialité & Conditions",
       "disclaimerLink": "Avis de non-responsabilité",
       "contactLink": "Contact & Assistance"
+    },
+    "translationNotice": {
+      "title": "Avis sur les traductions",
+      "independence": "Proud Muslim est une application indépendante, et non un institut islamique ou une autorité religieuse. Les traductions du Coran expriment des interprétations humaines des sens du texte arabe original et peuvent contenir des erreurs, des omissions ou des différences d’interprétation.",
+      "responsibility": "Les traductions sont attribuées à leurs traducteurs et éditeurs respectifs. Proud Muslim ne prétend pas certifier de manière indépendante leur exactitude religieuse ou linguistique. Dans la mesure permise par la loi applicable, nous déclinons toute responsabilité pour les erreurs provenant de traductions de tiers. Cela n’exclut pas les responsabilités qui ne peuvent légalement être exclues, notamment pour les erreurs introduites par nos propres traitements.",
+      "guidance": "Pour toute question d’interprétation religieuse, consultez un savant qualifié. Veuillez signaler les erreurs présumées à l’aide des informations sur la source de la traduction ou du canal d’assistance existant de l’application.",
+      "report": "Signaler une erreur de traduction présumée"
     }
   },
   "pt": {
@@ -1915,6 +1957,13 @@ window.translations = {
       "privacyLink": "Privacidade e Termos",
       "disclaimerLink": "Isenção de Responsabilidade",
       "contactLink": "Contato e Suporte"
+    },
+    "translationNotice": {
+      "title": "Aviso sobre as traduções",
+      "independence": "Proud Muslim é uma aplicação independente, não um instituto islâmico nem uma autoridade religiosa. As traduções do Alcorão expressam interpretações humanas dos significados do texto árabe original e podem conter erros, omissões ou diferenças de interpretação.",
+      "responsibility": "As traduções são creditadas aos seus respetivos tradutores e editores. Proud Muslim não afirma certificar de forma independente a sua exatidão religiosa ou linguística. Na medida permitida pela legislação aplicável, não aceitamos responsabilidade por erros originados em traduções de terceiros. Isto não exclui responsabilidades que não possam ser legalmente excluídas, incluindo as relativas a erros introduzidos pelo nosso próprio processamento.",
+      "guidance": "Para questões de interpretação religiosa, consulte um estudioso qualificado. Comunique possíveis erros utilizando as informações sobre a fonte da tradução ou o canal de apoio existente da aplicação.",
+      "report": "Comunicar um possível erro de tradução"
     }
   },
   "ru": {
@@ -2189,6 +2238,13 @@ window.translations = {
       "privacyLink": "Конфиденциальность и Условия",
       "disclaimerLink": "Отказ от ответственности",
       "contactLink": "Поддержка и контакты"
+    },
+    "translationNotice": {
+      "title": "Уведомление о переводах",
+      "independence": "Proud Muslim — независимое приложение, а не исламский институт или религиозный авторитет. Переводы Корана выражают человеческое понимание смыслов исходного арабского текста и могут содержать ошибки, пропуски или различия в толковании.",
+      "responsibility": "Для переводов указываются соответствующие переводчики и издатели. Proud Muslim не заявляет о независимом подтверждении их религиозной или языковой точности. В пределах, допускаемых применимым законодательством, мы не принимаем на себя ответственность за ошибки, содержащиеся в переводах третьих лиц. Это не исключает ответственности, которую нельзя исключить по закону, в том числе за ошибки, внесённые при нашей собственной обработке.",
+      "guidance": "По вопросам религиозного толкования обратитесь к квалифицированному учёному. Сообщайте о предполагаемых ошибках, используя сведения об источнике перевода или существующий канал поддержки приложения.",
+      "report": "Сообщить о предполагаемой ошибке перевода"
     }
   },
   "id": {
@@ -2463,6 +2519,13 @@ window.translations = {
       "privacyLink": "Privasi & Ketentuan",
       "disclaimerLink": "Penafian",
       "contactLink": "Bantuan & Kontak"
+    },
+    "translationNotice": {
+      "title": "Pemberitahuan tentang terjemahan",
+      "independence": "Proud Muslim adalah aplikasi independen, bukan lembaga Islam atau otoritas keagamaan. Terjemahan Al-Qur’an mengungkapkan penafsiran manusia atas makna teks Arab asli dan dapat mengandung kesalahan, penghilangan atau perbedaan penafsiran.",
+      "responsibility": "Terjemahan mencantumkan nama penerjemah dan penerbit masing-masing. Proud Muslim tidak mengklaim secara independen menjamin keakuratan agama atau bahasanya. Sejauh diizinkan oleh hukum yang berlaku, kami tidak menerima tanggung jawab atas kesalahan yang berasal dari terjemahan pihak ketiga. Hal ini tidak mengecualikan tanggung jawab yang secara hukum tidak dapat dikecualikan, termasuk atas kesalahan yang timbul dari pemrosesan kami sendiri.",
+      "guidance": "Untuk pertanyaan mengenai penafsiran agama, konsultasikan dengan ulama yang kompeten. Harap laporkan dugaan kesalahan menggunakan informasi sumber terjemahan atau saluran dukungan aplikasi yang sudah tersedia.",
+      "report": "Laporkan dugaan kesalahan terjemahan"
     }
   },
   "ms": {
@@ -2737,6 +2800,13 @@ window.translations = {
       "privacyLink": "Privasi & Terma",
       "disclaimerLink": "Penafian",
       "contactLink": "Sokongan & Hubungan"
+    },
+    "translationNotice": {
+      "title": "Notis terjemahan",
+      "independence": "Proud Muslim ialah aplikasi bebas, bukan institut Islam atau pihak berkuasa agama. Terjemahan al-Quran menyampaikan tafsiran manusia terhadap makna teks Arab asal dan mungkin mengandungi kesilapan, pengguguran atau perbezaan tafsiran.",
+      "responsibility": "Terjemahan diberikan kredit kepada penterjemah dan penerbit masing-masing. Proud Muslim tidak mendakwa memperakui ketepatan agama atau bahasanya secara bebas. Setakat yang dibenarkan oleh undang-undang yang terpakai, kami tidak menerima tanggungjawab atas kesilapan yang berpunca daripada terjemahan pihak ketiga. Ini tidak mengecualikan tanggungjawab yang tidak boleh dikecualikan di sisi undang-undang, termasuk bagi kesilapan yang diperkenalkan oleh pemprosesan kami sendiri.",
+      "guidance": "Bagi persoalan tafsiran agama, rujuklah ulama yang berkelayakan. Sila laporkan kesilapan yang disyaki menggunakan maklumat sumber terjemahan atau saluran sokongan aplikasi yang sedia ada.",
+      "report": "Laporkan kesilapan terjemahan yang disyaki"
     }
   },
   "ur": {
@@ -3011,6 +3081,13 @@ window.translations = {
       "privacyLink": "رازداری و شرائط",
       "disclaimerLink": "دستبرداری",
       "contactLink": "رابطہ و سپورٹ"
+    },
+    "translationNotice": {
+      "title": "تراجم سے متعلق اطلاع",
+      "independence": "Proud Muslim ایک آزاد ایپ ہے، کوئی اسلامی ادارہ یا دینی مرجع نہیں۔ قرآن کے تراجم اصل عربی متن کے معانی کی انسانی تعبیر پیش کرتے ہیں اور ان میں غلطیاں، چھوٹ جانے والے حصے یا تعبیر کے اختلافات ہو سکتے ہیں۔",
+      "responsibility": "تراجم کا انتساب ان کے متعلقہ مترجمین اور ناشرین کے نام سے کیا جاتا ہے۔ Proud Muslim ان کی دینی یا لسانی درستگی کی آزادانہ تصدیق کرنے کا دعویٰ نہیں کرتا۔ قابلِ اطلاق قانون کی اجازت کی حد تک، ہم تیسرے فریق کے تراجم میں پیدا ہونے والی غلطیوں کی ذمہ داری قبول نہیں کرتے۔ اس سے وہ ذمہ داری خارج نہیں ہوتی جسے قانونی طور پر خارج نہیں کیا جا سکتا، بشمول ہماری اپنی پراسیسنگ سے پیدا ہونے والی غلطیوں کی ذمہ داری۔",
+      "guidance": "دینی تعبیر سے متعلق سوالات کے لیے کسی مستند عالم سے رجوع کریں۔ مشتبہ غلطیوں کی اطلاع ترجمے کے ماخذ کی معلومات یا ایپ کے موجودہ معاونت کے ذریعے دیں۔",
+      "report": "ترجمے میں مشتبہ غلطی کی اطلاع دیں"
     }
   }
 };
