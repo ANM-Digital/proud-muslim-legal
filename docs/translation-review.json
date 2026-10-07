@@ -1,0 +1,151 @@
+{
+  "sourceLanguage": "en",
+  "sourceDictionarySha256": "928606ea4df676b9ee9ad50ce17707af0ce9cec944d26ec341b50ae730745559",
+  "keyCount": 283,
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "direction": "ltr",
+      "status": "source"
+    },
+    {
+      "code": "tr",
+      "name": "Türkçe",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "direction": "rtl",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "ms",
+      "name": "Bahasa Melayu",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "ur",
+      "name": "اردو",
+      "direction": "rtl",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "bn",
+      "name": "বাংলা",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "fa",
+      "name": "فارسی",
+      "direction": "rtl",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "hi",
+      "name": "हिन्दी",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "nl",
+      "name": "Nederlands",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "cy",
+      "name": "Cymraeg",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "sw",
+      "name": "Kiswahili",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "ha",
+      "name": "Hausa",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "so",
+      "name": "Soomaali",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "am",
+      "name": "አማርኛ",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    },
+    {
+      "code": "yo",
+      "name": "Yorùbá",
+      "direction": "ltr",
+      "status": "language_and_legal_review_required"
+    }
+  ],
+  "scope": [
+    "index.html",
+    "about.html",
+    "privacy-terms.html",
+    "disclaimer.html",
+    "licenses.html",
+    "datasets.html",
+    "websites.html",
+    "support.html",
+    "support-the-developer.html"
+  ],
+  "note": "Complete key coverage does not certify legal or linguistic accuracy. Draft translations preserve the English source; competent language and legal review is required before publication. No independent licensing, privacy-compliance or religious certification is implied. Prayer-time educational guides are outside this legal-document update."
+}

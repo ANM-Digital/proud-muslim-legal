@@ -10,18 +10,18 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="common.skipToContent">Skip to content</a>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Proud Muslim Home">
+      <a class="brand" href="index.html" aria-label="Proud Muslim Home" data-i18n-aria="common.homeAria">
         <img src="assets/images/logo.png" alt="Proud Muslim" class="brand-logo">
         <span class="brand-name" data-i18n="common.brandName">Proud Muslim</span>
         <span class="brand-tag" data-i18n="common.brandTag">Legal Centre</span>
       </a>
 
       <div class="nav-container">
-        <nav class="main-nav" aria-label="Primary">
+        <nav class="main-nav" aria-label="Primary" data-i18n-aria="common.primaryNavigation">
           <a href="index.html" data-i18n="common.home">Home</a>
           <a href="about.html" data-i18n="common.about">About</a>
           <a href="privacy-terms.html" data-i18n="common.privacyTerms">Privacy & Terms</a>
@@ -46,6 +46,17 @@
             <option value="id">Bahasa Indonesia</option>
             <option value="ms">Bahasa Melayu</option>
             <option value="ur">اردو</option>
+            <option value="bn">বাংলা</option>
+            <option value="fa">فارسی</option>
+            <option value="hi">हिन्दी</option>
+            <option value="it">Italiano</option>
+            <option value="nl">Nederlands</option>
+            <option value="cy">Cymraeg</option>
+            <option value="sw">Kiswahili</option>
+            <option value="ha">Hausa</option>
+            <option value="so">Soomaali</option>
+            <option value="am">አማርኛ</option>
+            <option value="yo">Yorùbá</option>
           </select>
         </div>
       </div>
@@ -53,6 +64,13 @@
   </header>
 
   <main id="main" class="site-main">
+      <div class="container">
+        <details class="notice" id="legal-translation-notice">
+          <summary data-i18n="legalTranslationNotice.title">Legal document translation notice</summary>
+          <p data-i18n="legalTranslationNotice.text">These legal documents are provided in translation for accessibility. Translations may contain errors, omissions or differences in wording. Proud Muslim does not independently certify their legal or linguistic accuracy. If wording differs or is unclear, consult the English source and contact info@anmdigital.online for clarification. This notice does not limit rights or responsibilities that cannot legally be excluded, including responsibility for errors introduced by our own processing.</p>
+        </details>
+      </div>
+
     <section class="hero">
       <div class="container">
         <p class="hero-eyebrow" data-i18n="home.heroEyebrow">Proud Muslim · ANM Digital Labs</p>
@@ -120,9 +138,9 @@
         <!-- Card 7: Support -->
         <div class="card">
           <div class="card-icon" aria-hidden="true">🕰️</div>
-          <h2 class="card-title" id="prayer-card-title">Prayer Time Explanations</h2>
-          <p class="card-text" id="prayer-card-description">Learn what each prayer-time and timetable marker means, with madhhab notes and source citations in 11 languages.</p>
-          <a class="card-link" href="prayer-times.html"><span id="prayer-card-link">View Explanations</span> <span class="arrow" aria-hidden="true">→</span></a>
+          <h2 class="card-title" id="prayer-card-title" data-i18n="home.prayerCardTitle">Prayer Time Explanations</h2>
+          <p class="card-text" id="prayer-card-description" data-i18n="home.prayerCardDescription">Learn what each prayer-time and timetable marker means, with madhhab notes and source citations in 11 languages.</p>
+          <a class="card-link" href="prayer-times.html"><span id="prayer-card-link" data-i18n="home.prayerCardLink">View Explanations</span> <span class="arrow" aria-hidden="true">→</span></a>
         </div>
 
         <!-- Card 8: Support -->
@@ -153,12 +171,5 @@
 
   <script src="assets/js/i18n.js"></script>
   <script src="assets/js/app.js"></script>
-  <script>
-    (function(){
-      const p={en:['Prayer Time Explanations','Learn what each prayer-time and timetable marker means, with madhhab notes and source citations in 11 languages.','View Explanations'],tr:['Namaz Vakitlerinin Açıklamaları','Her namaz vakti ve takvim işaretinin anlamını mezhep notları ve kaynaklarla 11 dilde öğrenin.','Açıklamaları Gör'],ar:['شرح مواقيت الصلاة','تعرّف على معاني المواقيت والعلامات مع ملاحظات المذاهب والمصادر بإحدى عشرة لغة.','عرض الشرح'],de:['Erklärungen der Gebetszeiten','Bedeutungen der Gebetszeiten mit Rechtsschulhinweisen und Quellen in 11 Sprachen.','Erklärungen ansehen'],fr:['Explications des horaires de prière','Découvrez les horaires avec les avis des écoles et les sources en 11 langues.','Voir les explications'],es:['Explicaciones de los horarios de oración','Consulte significados, notas jurídicas y fuentes en 11 idiomas.','Ver explicaciones'],pt:['Explicações dos horários de oração','Consulte significados, notas jurídicas e fontes em 11 idiomas.','Ver explicações'],ru:['Пояснения ко времени молитв','Значения временных отметок, мнения школ и источники на 11 языках.','Открыть пояснения'],id:['Penjelasan Waktu Salat','Pelajari penanda waktu, catatan mazhab, dan sumber dalam 11 bahasa.','Lihat Penjelasan'],ms:['Penjelasan Waktu Solat','Ketahui penanda waktu, catatan mazhab dan sumber dalam 11 bahasa.','Lihat Penjelasan'],ur:['اوقاتِ نماز کی وضاحت','اوقات، فقہی آرا اور ماخذ کی وضاحت 11 زبانوں میں پڑھیں۔','وضاحت دیکھیں']};
-      function setCard(){const l=document.getElementById('language-select').value;const v=p[l]||p.en;document.getElementById('prayer-card-title').textContent=v[0];document.getElementById('prayer-card-description').textContent=v[1];document.getElementById('prayer-card-link').textContent=v[2]}
-      setCard();document.getElementById('language-select').addEventListener('change',setCard);
-    }());
-  </script>
 </body>
 </html>

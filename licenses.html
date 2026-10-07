@@ -10,18 +10,18 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="common.skipToContent">Skip to content</a>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Proud Muslim Home">
+      <a class="brand" href="index.html" aria-label="Proud Muslim Home" data-i18n-aria="common.homeAria">
         <img src="assets/images/logo.png" alt="Proud Muslim" class="brand-logo">
         <span class="brand-name" data-i18n="common.brandName">Proud Muslim</span>
         <span class="brand-tag" data-i18n="common.brandTag">Legal Centre</span>
       </a>
 
       <div class="nav-container">
-        <nav class="main-nav" aria-label="Primary">
+        <nav class="main-nav" aria-label="Primary" data-i18n-aria="common.primaryNavigation">
           <a href="index.html" data-i18n="common.home">Home</a>
           <a href="about.html" data-i18n="common.about">About</a>
           <a href="privacy-terms.html" data-i18n="common.privacyTerms">Privacy & Terms</a>
@@ -46,6 +46,17 @@
             <option value="id">Bahasa Indonesia</option>
             <option value="ms">Bahasa Melayu</option>
             <option value="ur">اردو</option>
+            <option value="bn">বাংলা</option>
+            <option value="fa">فارسی</option>
+            <option value="hi">हिन्दी</option>
+            <option value="it">Italiano</option>
+            <option value="nl">Nederlands</option>
+            <option value="cy">Cymraeg</option>
+            <option value="sw">Kiswahili</option>
+            <option value="ha">Hausa</option>
+            <option value="so">Soomaali</option>
+            <option value="am">አማርኛ</option>
+            <option value="yo">Yorùbá</option>
           </select>
         </div>
       </div>
@@ -53,6 +64,13 @@
   </header>
 
   <main id="main" class="site-main">
+      <div class="container">
+        <details class="notice" id="legal-translation-notice">
+          <summary data-i18n="legalTranslationNotice.title">Legal document translation notice</summary>
+          <p data-i18n="legalTranslationNotice.text">These legal documents are provided in translation for accessibility. Translations may contain errors, omissions or differences in wording. Proud Muslim does not independently certify their legal or linguistic accuracy. If wording differs or is unclear, consult the English source and contact info@anmdigital.online for clarification. This notice does not limit rights or responsibilities that cannot legally be excluded, including responsibility for errors introduced by our own processing.</p>
+        </details>
+      </div>
+
     <section class="hero compact">
       <div class="container">
         <p class="hero-eyebrow" data-i18n="licenses.eyebrow">Open Source & Copyright</p>
@@ -77,6 +95,8 @@
 
         <h2 data-i18n="licenses.quranHeading">3. Quranic Texts and Translations</h2>
         <p data-i18n="licenses.quranText">Arabic Quran texts are sourced from verified digital Quran projects (Tanzil Project). Quranic translations are credited to their respective scholars and institutions (e.g., Saheeh International, Diyanet İşleri Başkanlığı, King Fahd Complex). Translations are used for educational and non-commercial religious dissemination.</p>
+
+        <p><a href="disclaimer.html#translation-notice" data-i18n="translationNotice.title">Translation notice</a></p>
 
         <h2 data-i18n="licenses.hadithAudioHeading">4. Recitations, 99 Names and Adhan Audio</h2>
         <p data-i18n="licenses.hadithAudioText">The Quran recitation currently used by Proud Muslim is Mishary Rashid Alafasy (edition ar.alafasy), streamed from the Al Quran Cloud audio CDN operated by Islamic Network under its published Terms and Conditions. Copyright remains with the reciter or applicable rights holder, and valid removal requests will be honoured. 99 Names of Allah recordings are produced by or licensed to ANM Digital Labs.</p>

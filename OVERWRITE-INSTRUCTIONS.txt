@@ -1,0 +1,7 @@
+Proud Muslim Legal Centre: 22-language overlay
+
+Back up your proud-muslim-legal website folder first. Extract this ZIP into its ROOT, where index.html and assets/ already exist. Choose replace/overwrite for matching files. Do not delete existing CSS, images, prayer guides or other files. This is an overlay, not a complete website archive.
+
+Includes nine legal pages, language runtime, 22 dictionaries (283 strings each), 21 locale entry routes, translation notices, support and developer-support text. Sadaqah Jariyah and regional Spanish/Portuguese variants are not included.
+
+Six automated localization tests passed. Run node --test tests/localization.test.cjs. Review the website locally before deployment. No mobile-app files are included. No changes have been deployed or pushed. Language/legal certification is not implied.

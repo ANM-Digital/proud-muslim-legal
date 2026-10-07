@@ -2,7 +2,7 @@
  * Proud Muslim Legal Centre - localization, navigation, and legacy-link support.
  */
 
-const supportedLanguages = ['en', 'tr', 'ar', 'de', 'es', 'fr', 'pt', 'ru', 'id', 'ms', 'ur'];
+const supportedLanguages = ["en", "tr", "ar", "de", "es", "fr", "pt", "ru", "id", "ms", "ur", "bn", "fa", "hi", "it", "nl", "cy", "sw", "ha", "so", "am", "yo"];
 const languageStorageKey = 'proudMuslimLegalLanguage';
 
 function readSavedLanguage() {
@@ -92,7 +92,7 @@ function redirectLegacyHashLink() {
 function applyTranslations(languageCode) {
   const language = supportedLanguages.includes(languageCode) ? languageCode : 'en';
   document.documentElement.lang = language;
-  document.documentElement.dir = ['ar', 'ur'].includes(language) ? 'rtl' : 'ltr';
+  document.documentElement.dir = ['ar', 'ur', 'fa'].includes(language) ? 'rtl' : 'ltr';
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getTranslation(language, element.dataset.i18n);
@@ -113,13 +113,23 @@ function applyTranslations(languageCode) {
   const languageSelect = document.getElementById('language-select');
   if (languageSelect) languageSelect.value = language;
 
+  // Preserve the selected language in internal links even when storage is blocked.
+  document.querySelectorAll('a[href]').forEach((link) => {
+    const raw = link.getAttribute('href');
+    if (!raw || raw.startsWith('#')) return;
+    const url = new URL(raw, window.location.href);
+    if (url.origin !== window.location.origin || !url.pathname.endsWith('.html')) return;
+    url.searchParams.set('lang', language);
+    link.setAttribute('href', url.pathname + url.search + url.hash);
+  });
+
   saveLanguage(language);
 }
 
 function setActiveNav() {
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.main-nav a').forEach((link) => {
-    const active = link.getAttribute('href') === currentPage;
+    const active = new URL(link.getAttribute('href'), window.location.href).pathname.split('/').pop() === currentPage;
     link.classList.toggle('active', active);
     if (active) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
@@ -137,6 +147,9 @@ function initApp() {
   if (languageSelect) {
     languageSelect.addEventListener('change', (event) => {
       applyTranslations(event.target.value);
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', event.target.value);
+      window.history.replaceState(null, '', url.pathname + url.search + url.hash);
     });
   }
 }
