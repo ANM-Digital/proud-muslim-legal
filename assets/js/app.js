@@ -2,7 +2,7 @@
  * Proud Muslim Legal Centre - localization, navigation, and legacy-link support.
  */
 
-const supportedLanguages = ["en", "tr", "ar", "de", "es", "fr", "pt", "ru", "id", "ms", "ur", "bn", "fa", "hi", "it", "nl", "cy", "sw", "ha", "so", "am", "yo"];
+const supportedLanguages = ["en", "tr", "ar", "de", "es", "fr", "pt", "ru", "id", "ms", "ur"];
 const languageStorageKey = 'proudMuslimLegalLanguage';
 
 function readSavedLanguage() {
@@ -92,7 +92,7 @@ function redirectLegacyHashLink() {
 function applyTranslations(languageCode) {
   const language = supportedLanguages.includes(languageCode) ? languageCode : 'en';
   document.documentElement.lang = language;
-  document.documentElement.dir = ['ar', 'ur', 'fa'].includes(language) ? 'rtl' : 'ltr';
+  document.documentElement.dir = ['ar', 'ur'].includes(language) ? 'rtl' : 'ltr';
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getTranslation(language, element.dataset.i18n);
