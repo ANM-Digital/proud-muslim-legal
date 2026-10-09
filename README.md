@@ -6,7 +6,7 @@ Official legal documentation, privacy practices, terms of use, dataset catalogs,
 
 ## 🌐 Automatic Multilingual Architecture
 
-The Proud Muslim Legal Centre is built with a unified client-side localization architecture. Every page dynamically renders in all 11 supported languages with seamless language switching, automatic browser detection, `localStorage` persistence, and native LTR/RTL support without redundant duplicate HTML pages.
+The Proud Muslim Legal Centre is built with a unified client-side localization architecture. The nine Legal Centre pages dynamically render in all 11 supported languages with seamless language switching, automatic browser detection, `localStorage` persistence, and native LTR/RTL support without redundant duplicate HTML pages.
 
 ### Supported Languages (11)
 - **English** (`en`) — Default fallback
@@ -23,7 +23,7 @@ The Proud Muslim Legal Centre is built with a unified client-side localization a
 
 ---
 
-## 📄 Main Pages (8)
+## 📄 Main Legal Pages (9)
 
 1. [**Home**](index.html) (`index.html`) — Proud Muslim Legal Centre overview and navigation hub.
 2. [**About**](about.html) (`about.html`) — App purpose, core features, developer information, and free-forever Quran and adhan commitment.
@@ -33,6 +33,10 @@ The Proud Muslim Legal Centre is built with a unified client-side localization a
 6. [**Datasets & Content Sources**](datasets.html) (`datasets.html`) — Complete catalog of Quran texts, translations, calculation methods, and hadith sources.
 7. [**Official Websites**](websites.html) (`websites.html`) — Verified official domains, GitHub organizations, and anti-phishing warnings.
 8. [**Support & Contact**](support.html) (`support.html`) — Support channels, privacy data requests, and legal notice procedures.
+
+9. [**Support the Developer**](support-the-developer.html) (`support-the-developer.html`) — Voluntary developer support information.
+
+Prayer-time explanations retain their separate 11-language scope; the advanced prayer-time guide is English-only. Legacy redirect pages are not counted as legal pages.
 
 ---
 

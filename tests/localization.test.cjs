@@ -6,7 +6,7 @@ const vm = require('node:vm');
 
 const root = path.resolve(__dirname, '..');
 const read = name => fs.readFileSync(path.join(root, name), 'utf8');
-const expected = ['en','tr','ar','de','es','fr','pt','ru','id','ms','ur','bn','fa','hi','it','nl','cy','sw','ha','so','am','yo'];
+const expected = ["en", "tr", "ar", "de", "es", "fr", "pt", "ru", "id", "ms", "ur"];
 const pages = ['index.html','about.html','privacy-terms.html','disclaimer.html','licenses.html','datasets.html','websites.html','support.html','support-the-developer.html'];
 const dictionaries = {window: {}};
 vm.runInNewContext(read('assets/js/i18n.js'), dictionaries);
@@ -17,7 +17,7 @@ function flatten(object, prefix = '') {
     return typeof value === 'string' ? [[name, value]] : Object.entries(flatten(value, name));
   }));
 }
-function context(href = 'https://example.test/legal/disclaimer.html?lang=fa', blocked = false) {
+function context(href = 'https://example.test/legal/disclaimer.html?lang=ar', blocked = false) {
   const location = new URL(href);
   location.replace = destination => { location.replaced = destination; };
   const nodes = Object.keys(flatten(translations.en)).map(key => ({dataset: {i18n: key}, textContent: ''}));
@@ -57,7 +57,7 @@ test('Every supported language has the full legal dictionary without missing key
   }
 });
 
-test('All nine legal pages expose 22 languages and valid localized content and controls', () => {
+test('All nine legal pages expose 11 languages and valid localized content and controls', () => {
   for (const page of pages) {
     const html = read(page);
     assert.deepEqual([...html.matchAll(/<option value="([^"]+)"/g)].map(m => m[1]), expected, page);
@@ -73,12 +73,12 @@ test('All nine legal pages expose 22 languages and valid localized content and c
   }
 });
 
-test('Language switching renders every key and sets Persian, Arabic and Urdu RTL', () => {
+test('Language switching renders every key and sets Arabic and Urdu RTL', () => {
   const {c, nodes, selector} = context();
   for (const locale of expected) {
     c.applyTranslations(locale);
     assert.equal(c.document.documentElement.lang, locale);
-    assert.equal(c.document.documentElement.dir, ['ar', 'ur', 'fa'].includes(locale) ? 'rtl' : 'ltr');
+    assert.equal(c.document.documentElement.dir, ['ar', 'ur'].includes(locale) ? 'rtl' : 'ltr');
     assert.equal(selector.value, locale);
     const values = flatten(translations[locale]);
     for (const node of nodes) assert.equal(node.textContent, values[node.dataset.i18n]);
@@ -95,8 +95,8 @@ test('Direct links, reload URLs and navigation retain language when storage is b
     assert.equal(links[2].href, '#main');
     assert.equal(links[3].href, 'https://other.test/info.html');
     assert.equal(links[4].href, 'mailto:info@anmdigital.online');
-    selector.change({target: {value: 'it'}});
-    assert.equal(c.window.history.url, '/legal/disclaimer.html?lang=it');
+    selector.change({target: {value: 'tr'}});
+    assert.equal(c.window.history.url, '/legal/disclaimer.html?lang=tr');
   }
 });
 
@@ -109,7 +109,7 @@ test('The Quran disclaimer remains separate and retains responsibility safeguard
   assert.ok(translations.en.legalTranslationNotice.text.includes('rights or responsibilities that cannot legally be excluded'));
 });
 
-test('Every added language directory keeps legacy route navigation', () => {
+test('Every supported language directory keeps legacy route navigation', () => {
   for (const locale of expected.filter(locale => locale !== 'en')) {
     const html = read(locale + '/index.html');
     assert.ok(html.includes('?lang=' + locale), locale);
