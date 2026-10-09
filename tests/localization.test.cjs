@@ -38,6 +38,10 @@ function context(href = 'https://example.test/legal/disclaimer.html?lang=ar', bl
 
 test('Every supported language has the full legal dictionary without missing keys', () => {
   assert.deepEqual(Object.keys(translations), expected);
+  const manifest = JSON.parse(read('translations/languages.json'));
+  assert.deepEqual(manifest.map(([code]) => code), expected);
+  assert.deepEqual(fs.readdirSync(path.join(root, 'translations')).filter(name => name.endsWith('.json') && name !== 'languages.json').map(name => name.replace(/\.json$/, '')).sort(), [...expected].sort());
+  for (const locale of expected) assert.deepEqual(JSON.parse(read('translations/' + locale + '.json')), JSON.parse(JSON.stringify(translations[locale])), locale + ': JSON/runtime dictionary mismatch');
   const source = flatten(translations.en);
   for (const locale of expected) {
     const localized = flatten(translations[locale]);
